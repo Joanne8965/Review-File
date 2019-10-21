@@ -29,6 +29,22 @@ print(new[1])
 
 
 
+# 篩選出有Good的字串：
+
+good = []
+for d in data:              # d 為一個留言(字串)
+    if 'good' in d:         # 如果 d 裡有出現 good 的字串  #是非題
+        good.append(d)      # 裝入 'good' 的清單
+print('一共有', len(good), '比留言提到good', '/Total', len(good), 'of comments mentioned about good')
+
+print(good[0])
+
+
+
+
+
+
+
 
 
 
